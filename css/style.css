@@ -1,0 +1,24 @@
+
+:root {
+    --title-text-color: #212121;
+    --main-text-color: #757575;
+    --main-background-color: #fff;
+    --secondary-background-color: #F5F4FA;
+    --active-color: #2196F3;
+
+}
+body {
+    color: var(--main-text-color);
+    background-color: var(--main-background-color);
+}
+.logo {
+    font-family: Raleway;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #000;
+}
+.logo-web {
+    color: var(--active-color)
+}
