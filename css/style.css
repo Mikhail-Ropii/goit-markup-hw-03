@@ -5,6 +5,8 @@
     --main-background-color: #fff;
     --secondary-background-color: #F5F4FA;
     --accent-color: #2196F3;
+    --buttons-text-color: #212121;
+    --buttons-background-color: #F5F4FA;
 }
 body {
     font-family: 'Roboto', sans-serif;
@@ -25,6 +27,10 @@ body {
 /* ----------------HEADER-------------------- */
 .header-link:hover,
 .header-link:focus {
+    color: var(--accent-color);
+}
+.header-contacts-link:hover,
+.header-contacts-link:focus {
     color: var(--accent-color);
 }
 
@@ -159,4 +165,33 @@ color: rgba(255, 255, 255, 0.6);
 .footer-link:hover,
 .footer-link:focus {
     color: var(--accent-color);
+}
+
+/* portfolio */
+/* ----------------PROJECTS-------------------- */
+
+.filter-button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--buttons-text-color);
+    background-color: var(--buttons-background-color);
+}
+.filter-button:hover,
+.filter-button:focus {
+    background-color: var(--accent-color);
+}
+.projects-item {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2.0;
+    letter-spacing: 0.06em;
+    color: var(--title-text-color);
+}
+.projects-text {
+font-size: 16px;
+line-height: 1.87;
+letter-spacing: 0.03em;
 }
